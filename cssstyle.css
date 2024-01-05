@@ -5,10 +5,12 @@
 }
 
 body {
-    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/07/81/seamless-weather-forecast-background-vector-2000781.jpg");
+    background-image: url("https://th.bing.com/th/id/OIP.xxUUz9n_M7DYrEniQqqHRQHaEK?rs=1&pid=ImgDetMain");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
 .container-fluid {
@@ -29,20 +31,23 @@ body {
     text-align: center;
     justify-content: center;
     background: transparent;
+
+
 }
 
 .inputs input[type="text"] {
     height: 4rem;
     width: 20rem;
-    background: #212121;
+    background: #FFFF99;
     font-weight: bold;
     font-size: 1rem;
     padding: 10px;
     border: none;
-    background-color: transparent;
+
     border: 2px solid #c2c2c2;
     border-radius: 2px;
     margin-right: 4px;
+
 }
 
 .inputs input[type="submit"] {
@@ -98,3 +103,6 @@ body {
     color: #f40d0d;
     font-size: 25px;
 }
+    
+  
+
